@@ -14,7 +14,7 @@ def setup():
     background(0)
     strokeWeight(1)
     noSmooth()
-    frameRate(4)
+    frameRate(5)
     
     for i in range(width/cellSize):
         columna = []
