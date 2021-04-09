@@ -22,7 +22,7 @@ def setup():
     background(0)
     strokeWeight(1)
     noSmooth()
-    frameRate(5).                                      # frameRate: establece la 'velocidad' de la evolucion del juego
+    frameRate(5)                                      # frameRate: establece la 'velocidad' de la evolucion del juego
     
     for i in range(width/cellSize):
         columna = []
