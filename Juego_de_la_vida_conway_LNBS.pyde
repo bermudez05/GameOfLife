@@ -1,6 +1,6 @@
 
 # Juego de la vida - Version final (LNBS)
-# some ideas where extract form 'Game of Life' By Joan Soler-Adillon (Processing3+ Java)
+# some ideas where extract from 'Game of Life' By Joan Soler-Adillon (Processing3+ Java)
 
 pause = False
 copCells = []
