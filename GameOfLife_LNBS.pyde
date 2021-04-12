@@ -48,9 +48,9 @@ def draw():
         
     if ((mousePressed == True) and (pause == True)):    # manipular la matriz con el mouse mientras el juego esta en pausa.   (interaccion mouse)
         x_cell = int(map(mouseX, 0, width, 0, width/cellSize))  # (Game of Life By Joan Soler-Adillon (Processing3+, Java))
-        x_cell = constrain(x_cell, 0, width/cellSize)
-        y_cell = int(map(mouseY, 0, height, 0, height/cellSize))
-        y_cell = constrain(y_cell, 0, height/cellSize)
+        # x_cell = constrain(x_cell, 0, width/cellSize)         # Nota: por el momento dada la 'funcion' map y otras pruebas realizadas con la 'funcion' map 
+        y_cell = int(map(mouseY, 0, height, 0, height/cellSize)) # se observo que los valores de rango en x_cell y y_cell dados en map() ya limitan los valores
+        # y_cell = constrain(y_cell, 0, height/cellSize)         # por lo tanto resulta inecesario añadir constrain a la variable.
 
         if (copCells[x_cell][y_cell] == 1):             # seleccionamos manualmente celulas muertas
             cells[x_cell][y_cell] = 0 
