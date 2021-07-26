@@ -18,7 +18,7 @@ Repasar [programación estructurada](objetos.github.io/structured_programming/) 
 
 # Taller: Tangram clasico
 
-##Propósito
+## Propósito
 
 Evidenciar los conceptos fundamentales de la programación orientada a objetos (POO), empleando varios lenguajes para la implementación del juego del tangram.
 
