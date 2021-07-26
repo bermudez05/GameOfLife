@@ -16,10 +16,15 @@ Repasar [programación estructurada](objetos.github.io/structured_programming/) 
 2. Subir el código fuente en la carpeta: `GameOfLife`. En [Processing](https://processing.org) (versión Java) el código fuente debe ir en el archivo `GameOfLife.pde` dentro de dicha carpeta.
 3. Si van a desarrollar la aplicación en un lenguaje diferente de *Processing*, adjuntar las instrucciones de ejecución (y compilación, si aplica) para la *Linux*.
 
-## Entrega
+# Taller: Tangram clasico
 
-Condiciones:
+##Propósito
 
-1. _Plazo máximo del último `commit`:_ 24h del Domingo 11/4/21.
-2. _Presentaciones (demo + código):_ Lunes 12/4/21. Tiempo: 3m presentación +  2m preguntas de los asistentes.
+Evidenciar los conceptos fundamentales de la programación orientada a objetos (POO), empleando varios lenguajes para la implementación del juego del tangram.
 
+## Tareas
+
+1. Dibujo de las piezas.
+2. Interacción con las piezas (ratón y teclado): selección y manipulación.
+3. Verificación de resultados.
+4. Creación de niveles.
