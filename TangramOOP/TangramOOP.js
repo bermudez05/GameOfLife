@@ -132,6 +132,7 @@ var poweto;
 let levels = [];
 let level = 0;
 var roboto;
+let song;
 
 function preload(){
   levels[0] = loadImage('images/level1.png');
@@ -140,11 +141,13 @@ function preload(){
   levels[3] = loadImage('images/level4.png');
   levels[4] = loadImage('images/level5.png');
   levels[5] = loadImage('images/level6.png');
+  //song = loadSound("congrats.mp3");
 }
 
 function setup() {
-  // new --> creates a new instance of the object
-  roboto = loadFont('Roboto-Thin.ttf')
+   //new --> creates a new instance of the object
+  //song.play();
+  roboto = loadFont('Roboto-Thin.ttf');
   poweto = loadFont('Poweto.ttf');
   var cc = createCanvas (windowWidth, windowHeight);
   cc.style('display', 'block');    // doesn't allow to scroll inside the page
